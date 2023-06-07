@@ -42,7 +42,7 @@ class RMTabBarController: UITabBarController {
                                        selectedImage: UIImage(systemName: "tv.fill"))
         nav4.tabBarItem = UITabBarItem(title: "Settings",
                                        image: UIImage(systemName: "gearshape"),
-                                       selectedImage: UIImage(systemName: "gearshape.fill "))
+                                       selectedImage: UIImage(systemName: "gearshape.fill"))
         
         let navTabs = [nav1, nav2, nav3, nav4]
         navTabs.forEach { $0.navigationBar.prefersLargeTitles = true }
